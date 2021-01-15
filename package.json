@@ -1,5 +1,6 @@
 {
   "name": "react_cv",
+  "homepage": "https://svforg.github.io/react_cv/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

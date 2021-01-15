@@ -2,37 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93d969b2-c4e2-4e3a-9642-0038f2f0d900" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/isonsSprite.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Contacts/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Contacts/Contacts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Contacts/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Contacts/Contacts.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Main/Banner/Banner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Main/Banner/Banner.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Main/Banner/Banner.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Main/Banner/Banner.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Main/Form/Form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Main/Form/Form.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Main/Form/Form.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Main/Form/Form.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Main/Hero/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Main/Hero/Hero.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Main/Hero/Hero.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Main/Hero/Hero.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Main/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Main/Skills/Item/Item.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Main/Skills/Item/Item.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Main/Skills/Skills.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Main/Skills/Skills.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Main/Skills/Skills.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Main/Skills/Skills.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Main/Works/Item/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Main/Works/Item/Item.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Main/Works/Item/Item.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Main/Works/Item/Item.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Main/Works/Works.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Main/Works/Works.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Main/Works/Works.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Main/Works/Works.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shared/ScrollTop/ScrollTop.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/ScrollTop/ScrollTop.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scssVars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scssVars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/misc/_adjustment.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/misc/_adjustment.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/vars/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/vars/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,6 +105,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="js" value="2" />
+          <entry key="json" value="1" />
           <entry key="jsx" value="37" />
           <entry key="php" value="5" />
           <entry key="scss" value="41" />
@@ -141,6 +114,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="JSON" value="1" />
           <entry key="JSX Harmony" value="37" />
           <entry key="JavaScript" value="2" />
           <entry key="PHP" value="5" />
@@ -151,6 +125,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="5" />
+          <entry key="json" value="1" />
           <entry key="jsx" value="593" />
           <entry key="scss" value="746" />
           <entry key="svg" value="82" />
@@ -158,6 +133,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="JSON" value="1" />
           <entry key="JSX Harmony" value="593" />
           <entry key="JavaScript" value="5" />
           <entry key="SCSS" value="746" />
@@ -168,36 +144,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/misc/_adjustment.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="82" column="55" lean-forward="true" selection-start-line="82" selection-start-column="2" selection-end-line="82" selection-end-column="55" />
-              <folding>
-                <element signature="e#11#58#0" />
-                <element signature="e#79#137#0" />
-                <element signature="e#108#135#0" />
-                <element signature="e#216#245#0" />
-                <element signature="e#363#393#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Header/Header.module.scss">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
-              <caret line="2" column="40" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Works/Item/Item.module.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+              <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -216,7 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/pages/Home/Main/Banner/Banner.module.scss" />
         <option value="$PROJECT_DIR$/src/components/shared/CustomInput/CustomInput.jsx" />
         <option value="$PROJECT_DIR$/src/components/shared/CustomTextArea/CustomTextArea.jsx" />
         <option value="$PROJECT_DIR$/src/pages/Home/Main/Form/Form.jsx" />
@@ -267,6 +217,7 @@
         <option value="$PROJECT_DIR$/src/styles/misc/_adjustment.scss" />
         <option value="$PROJECT_DIR$/src/components/Header/Header.module.scss" />
         <option value="$PROJECT_DIR$/src/components/Home/Main/Works/Item/Item.module.scss" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -305,51 +256,6 @@
             <path>
               <item name="react_cv" type="b2602c69:ProjectViewProjectNode" />
               <item name="react_cv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_cv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_cv" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_cv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_cv" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_cv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_cv" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_cv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_cv" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_cv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_cv" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="Works" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_cv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_cv" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="Works" type="462c0819:PsiDirectoryNode" />
-              <item name="Item" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -414,12 +320,12 @@
       <workItem from="1610602899201" duration="11558000" />
       <workItem from="1610618210378" duration="10879000" />
       <workItem from="1610684057752" duration="2077000" />
-      <workItem from="1610724894875" duration="11718000" />
+      <workItem from="1610724894875" duration="12050000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39612000" />
+    <option name="totallyTimeSpent" value="39944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1296" height="1010" extended-state="6" />
@@ -440,12 +346,12 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3283237" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3283237" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.26171243" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.26171243" />
     </layout>
     <layout-to-restore>
       <window_info id="npm" order="0" side_tool="true" />
@@ -477,7 +383,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../climashop/wp-content/themes/climat-theme/site_hub/src/pages/footer/footer.js" />
     <entry file="file://$PROJECT_DIR$/../../climashop/wp-content/themes/climat-theme/site_hub/src/general/js/misc/common-functions.js" />
     <entry file="file://$PROJECT_DIR$/src/components/shared/ScrollTop/ScrollTop.jsx">
       <provider selected="true" editor-type-id="text-editor" />
@@ -840,6 +745,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
         </state>
       </provider>
     </entry>
