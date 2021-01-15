@@ -1,0 +1,94 @@
+.owl-carousel {
+  .owl {
+    &-stage-outer {
+      padding: 0 12px;
+      margin: 0 -12px;
+    }
+
+    &-dots {
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      bottom: -60px;
+      left: 50%;
+      transform: translateX(-50%);
+
+      .owl-dot.active span,
+      .owl-dot:hover span {
+        background: $colorBluePrimary;
+        transform: translate3d(0px, -50%, 0px) scale(0.7);
+      }
+
+      .owl-dot{
+        display: inline-block;
+        outline: none;
+      }
+
+      .owl-dot span {
+        background: $colorBluePrimary;
+        display: inline-block;
+        height: 20px;
+        margin: 0 2px 5px;
+        transform: translate3d(0px, -50%, 0px) scale(0.3);
+        transform-origin: 50% 50% 0;
+        transition: all 250ms ease-out 0s;
+        width: 20px;
+      }
+    }
+
+    &-nav {
+      position: absolute;
+      left: -80px;
+      right: -80px;
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      justify-content: space-between;
+      z-index: -1;
+    }
+
+    &-item {
+      padding: 16px 0;
+    }
+
+    &-prev,
+    &-next {
+      width: 80px;
+      height: 50px;
+      text-align: center;
+      text-decoration: none;
+      background: transparent;
+      outline: none;
+      cursor: pointer;
+      transition: all $transitionDurationPrimary $transitionFunctionPrimary;
+      @media only screen and ($largeTabletsMax) {
+        display: none;
+      }
+
+      &:before {
+        transition: all $transitionDurationPrimary $transitionFunctionPrimary;
+      }
+
+      &:hover svg path {
+        stroke: $colorBlueSecondary!important;
+      }
+
+      &.disabled svg path {
+        stroke: $colorLightSecondary!important;
+      }
+
+      span {
+        display: none!important;
+      }
+    }
+
+    &-prev {
+      left: -20px;
+    }
+
+    &-next {
+      right: -20px;
+    }
+  }
+}

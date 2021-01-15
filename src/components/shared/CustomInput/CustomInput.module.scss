@@ -1,0 +1,22 @@
+@import "../../../index";
+
+.label {
+    display: block;
+}
+.labelTitle {
+    display: inline-block;
+    margin-bottom: .5rem;
+    color: $colorLightPrimary;
+    cursor: pointer;
+}
+.inputField {
+    width: 100%;
+    display: block;
+    min-height: 40px;
+    padding: .375rem .75rem;
+    background: transparent;
+    border: 1px solid $colorYellowPrimary;
+    border-radius: 5px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    color: $colorLightPrimary;
+}

@@ -1,0 +1,18 @@
+.page-tag {
+  margin: 15px;
+  font-size: 14px;
+  padding: 8px 16px!important;
+  letter-spacing: 0.03em;
+  line-height: 16px;
+  background: $colorLightPrimary;
+  color: $colorBluePrimary!important;
+  border-radius: $borderRadiusPrimary;
+  border: 1px solid $colorBluePrimary;
+  transition: border-color $transitionDurationPrimary $transitionFunctionPrimary, color $transitionDurationPrimary $transitionFunctionPrimary;
+
+  &:hover {
+    color: $colorBlueSecondary!important;
+    border-color: $colorBlueSecondary;
+    //box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #FFFFFF;
+  }
+}

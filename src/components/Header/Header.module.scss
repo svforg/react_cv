@@ -1,0 +1,32 @@
+@import '../../scssVars';
+
+$backgroundTopBar: #313552;
+$colorTopBarLink: $colorLightPrimary;
+$colorTopBarLinkHover: $colorBlueSecondary;
+$colorSuccessIcon: $colorBluePrimary;
+$backgroundTopBarDropDown: $colorLightPrimary;
+$backgroundBurgerLines            : $colorLightPrimary;
+$backgroundBurgerHover            : $colorBlueSecondary;
+
+$topBarLinkSize: $size16px;
+
+.Header {
+  position: static;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  background: transparent;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__burger {
+    @media only screen and ($laptopsMin) {
+      display: none;
+    }
+  }
+}

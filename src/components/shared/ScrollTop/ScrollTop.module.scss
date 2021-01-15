@@ -1,0 +1,30 @@
+@import '../../../scssVars';
+
+.ScrollTop {
+  position: fixed;
+  left: 50px;
+  bottom: 200px;
+  z-index:200;
+  transition: opacity .1s ease;
+
+
+  &__btn {
+    min-height: 30px;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border-radius: 50%;
+    box-shadow: none!important;
+    color: rgba($colorYellowPrimary, 0.5);
+    border: 1px solid rgba($colorYellowPrimary, 0.5);
+    background: transparent;
+    transition: color  $transitionDurationPrimary $transitionFunctionPrimary,
+    border-color  $transitionDurationPrimary $transitionFunctionPrimary;
+    cursor: pointer;
+
+    &:hover {
+      color: rgba($colorYellowPrimary, 1);
+      border-color: rgba($colorYellowPrimary, 1);
+    }
+  }
+}

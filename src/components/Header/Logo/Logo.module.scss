@@ -1,0 +1,75 @@
+@import '../../../scssVars';
+
+$backgroundTopBar: $colorBluePrimary;
+$colorTopBarLink: $colorLightPrimary;
+$colorTopBarLinkHover: $colorBlueSecondary;
+$colorSuccessIcon: $colorBluePrimary;
+$backgroundTopBarDropDown: $colorLightPrimary;
+$backgroundBurgerLines            : $colorLightPrimary;
+$backgroundBurgerHover            : $colorBlueSecondary;
+
+$topBarLinkSize: $size16px;
+
+.Logo {
+  padding: $size10px 0;
+  display: flex;
+  text-decoration: none;
+  @media only screen and ($largeTabletsMax) {
+    margin: 0 auto;
+  }
+
+
+  &__image {
+    display: inline-block;
+    width: 100%;
+    max-width: 50px;
+    height: auto;
+    min-height: 100%;
+    object-fit: contain;
+    transform-style: preserve-3d;
+    animation: spinner 3s linear infinite;
+
+    @media only screen and ($phonesMax) {
+      max-width: 24px;
+    }
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 14px;
+    color: $colorTopBarLink;
+    text-align: left;
+
+    @media only screen and ($phonesMax) {
+      margin-left: 4px;
+    }
+
+    &_strong {
+      margin-bottom: 4px;
+      font-size: 20px;
+      line-height: 20px;
+      white-space: nowrap;
+
+      @media only screen and ($laptopsMax) {
+        margin-bottom: 0;
+      }
+
+      @media only screen and ($phonesMax) {
+        font-size: 14px;
+      }
+    }
+
+    &_desktop {
+      display: block;
+      font-size: $size13px;
+      line-height: 15px;
+      @media only screen and ($laptopsMax) {
+        display: none;
+      }
+    }
+  }
+}
+

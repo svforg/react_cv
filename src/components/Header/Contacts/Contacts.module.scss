@@ -1,0 +1,47 @@
+@import '../../../scssVars';
+
+$backgroundTopBar: $colorBluePrimary;
+$colorTopBarLink: $colorLightPrimary;
+$colorTopBarLinkHover: $colorBlueSecondary;
+$colorSuccessIcon: $colorBluePrimary;
+$backgroundTopBarDropDown: $colorLightPrimary;
+$backgroundBurgerLines            : $colorLightPrimary;
+$backgroundBurgerHover            : $colorBlueSecondary;
+
+$topBarLinkSize: $size16px;
+
+.Contacts {
+  display: flex;
+  padding: $size10px 0;
+
+  @media only screen and ($laptopsMin) {
+    flex-direction: column;
+  }
+
+  &__link {
+    color: $colorTopBarLink!important;
+    font-size: $topBarLinkSize;
+    white-space: nowrap;
+
+    &:hover {
+      color: $colorTopBarLinkHover!important;
+    }
+  }
+
+  &__icon {
+    @media only screen and ($largeTabletsMax) {
+      font-size: $size24px;
+    }
+  }
+
+  &__text {
+    display: none;
+
+    @media only screen and ($laptopsMin) {
+      display: inline-block;
+    }
+  }
+}
+
+
+

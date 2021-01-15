@@ -1,0 +1,20 @@
+@import './../../../../scssVars';
+
+.Hero {
+  padding: $step6 0;
+
+  &__picture {
+    display: flex;
+    width: 370px;
+    height: 370px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
+  &__img {
+    min-width: 375px;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}

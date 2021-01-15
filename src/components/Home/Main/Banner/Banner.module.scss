@@ -1,0 +1,15 @@
+@import './../../../../scssVars';
+
+.Banner {
+  position: relative;
+  width: 100%;
+  margin-bottom: $step12;
+  padding: 48px 0;
+  overflow: hidden;
+  color: $colorLightPrimary;
+  background: $colorBluePrimary;
+  border-radius: 10px;
+  @media ($largeTabletsMax) {
+    margin-bottom: $step3;
+  }
+}

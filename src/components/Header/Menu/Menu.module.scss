@@ -1,0 +1,53 @@
+@import '../../../scssVars';
+
+
+$colorTopBarLink: $colorLightPrimary;
+$colorTopBarLinkHover: $colorBlueSecondary;
+$colorSuccessIcon: $colorBluePrimary;
+$backgroundTopBarDropDown: $colorLightPrimary;
+$backgroundBurgerLines            : $colorLightPrimary;
+$backgroundBurgerHover            : $colorBlueSecondary;
+
+$topBarLinkSize: $size18px;
+
+.Menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  @media only screen and ($largeTabletsMax) {
+    display: none;
+  }
+
+  &__link {
+    position: relative;
+    color: $colorTopBarLink;
+    font-size: $topBarLinkSize;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    border-radius: $borderRadiusPrimary;
+    cursor: pointer;
+    transition: all $transitionDurationPrimary $transitionFunctionPrimary;
+  }
+
+  &__item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: $headerHeight;
+    margin-right: 24px;
+    padding: $size10px;
+
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover .menu__link{
+      color: lighten($colorBlueSecondary, 20%);
+    }
+  }
+}
+
+

@@ -1,0 +1,43 @@
+.fixed-basket {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  height: 50px;
+  width: auto;
+  border-radius: $borderRadiusPrimary 0 0 $borderRadiusPrimary;
+  display: block;
+  background: $colorBluePrimary;
+  transform: translateX(78px);
+  transition: transform $transitionDurationPrimary $transitionFunctionSecondary;
+  z-index: 1;
+
+  .basket-block__link {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 10px;
+    color: $colorLightSecondary!important;
+  }
+
+  .basket-block__counter {
+    position: absolute;
+    font-size: 10px;
+    color: $colorBluePrimary;
+    right: 81px;
+    top: 5px;
+    background-color: $colorLightSecondary;
+    border-radius: 50%;
+    padding: 3px 6px;
+    line-height: 1;
+  }
+
+  .basket-block__icon {
+    margin-right: 24px;
+    font-size: 24px;
+  }
+
+  &:hover {
+    transform: translateX(0);
+  }
+}

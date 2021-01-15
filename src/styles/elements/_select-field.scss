@@ -1,0 +1,16 @@
+$colorInputBorder                 : $colorBluePrimary;
+$colorInputText                   : $colorDarkPrimary;
+$colorInputTextFocus              : $colorDarkPrimary;
+
+.select-field {
+  min-height: 40px;
+  padding: 0 12px;
+  color: $colorInputTextFocus;
+  border: 1px solid $colorGrayPrimary;
+  border-radius: $borderRadiusPrimary;
+}
+
+
+
+
+

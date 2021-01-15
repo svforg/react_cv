@@ -1,0 +1,50 @@
+@import '../../../scssVars';
+
+$colorButtonText                  : $colorDarkPrimary;
+$colorButtonTextHover             : $colorLightPrimary;
+$colorButtonFilledText            : $colorLightPrimary;
+
+$colorButtonBorder                : $colorDarkPrimary;
+$colorButtonBorderHover           : $colorBluePrimary;
+
+$backgroundButtonHover            : $colorBluePrimary;
+$backgroundButtonFilled           : $colorBluePrimary;
+$backgroundButtonFilledHover      : $colorBlueSecondary;
+
+.button {
+  position: relative;
+  display: inline-block;
+  min-height: 40px;
+  padding: 8px 24px;
+  overflow: hidden;
+  color: $colorYellowPrimary!important;
+  white-space: nowrap;
+  text-align: center;
+  text-overflow: ellipsis;
+  background: transparent;
+  border: 1px solid $colorYellowPrimary;
+  border-radius: $borderRadiusPrimary;
+  cursor: pointer;
+  transition: background $transitionDurationPrimary $transitionFunctionSecondary,
+  color $transitionDurationPrimary $transitionFunctionSecondary,
+  border-color, $transitionDurationPrimary $transitionFunctionSecondary;
+
+  &:hover {
+    background: $colorBluePrimary;
+    border-color: $colorBluePrimary;
+  }
+
+  &:active {
+    background: darken($colorBluePrimary, 10%);
+  }
+
+  &_inverse {
+    color: $colorBluePrimary!important;
+    background: $colorLightPrimary;
+    border-color: $colorBluePrimary;
+
+    &:hover {
+      background: darken($colorLightPrimary, 20%);
+    }
+  }
+}
