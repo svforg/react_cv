@@ -2,10 +2,16 @@
 
 .ScrollTop {
   position: fixed;
-  left: 50px;
-  bottom: 200px;
+  right: 20px;
+  bottom: 20px;
   z-index:200;
   transition: opacity .1s ease;
+
+  @media only screen and ($laptopsMin) {
+    left: 50px;
+    right: unset;
+    bottom: 50px;
+  }
 
 
   &__btn {

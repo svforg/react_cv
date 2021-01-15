@@ -6,14 +6,14 @@ import {ScrollTop} from './components/shared/ScrollTop/ScrollTop'
 
 const App = () => {
 
-    return (
-        <div className="App">
-            <Header/>
-            <Main/>
-            <Footer/>
-            <ScrollTop/>
-        </div>
-    );
+  return (
+    <div className="App">
+      <Header/>
+      <Main/>
+      <Footer/>
+      <ScrollTop/>
+    </div>
+  );
 };
 
 export default App;

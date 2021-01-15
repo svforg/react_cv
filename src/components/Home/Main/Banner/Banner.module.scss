@@ -2,14 +2,88 @@
 
 .Banner {
   position: relative;
-  width: 100%;
-  margin-bottom: $step12;
-  padding: 48px 0;
-  overflow: hidden;
-  color: $colorLightPrimary;
-  background: $colorBluePrimary;
-  border-radius: 10px;
-  @media ($largeTabletsMax) {
-    margin-bottom: $step3;
+  background: $colorLightPrimary;
+  padding-bottom: 150px;
+  .Inner {
+    width: 100%;
+    margin-bottom: $step12;
+    padding: 48px 0;
+    overflow: hidden;
+    color: $colorLightPrimary;
+    background: $colorPurpleSecondary;
+    border-radius: 15px;
+    @media ($largeTabletsMax) {
+      margin-bottom: $step3;
+    }
   }
+
+  .Curve {
+    position: absolute;
+    left: -5vw;
+    z-index: 1;
+    width: 110vw;
+    height: 100px;
+    margin: 0;
+    overflow: hidden;
+    border: none;
+    border-right: none;
+    border-bottom: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    @media ($phonesMax) {
+      height: 50px;
+    }
+
+    &:before,
+    &:after {
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 200px;
+      background: transparent;
+      border: none;
+      border-radius: 50%;
+      box-shadow: 0 0 0 100px $colorDarkPrimary;
+      content: '';
+      @media ($phonesMax) {
+        height: 100px;
+      }
+    }
+
+    &Bottom {
+      bottom: 0;
+
+      &:before {
+        bottom: 0;
+        z-index: 2;
+        filter: drop-shadow(8px 8px 10px transparent);
+      }
+
+      &:after {
+        bottom: 15px;
+        z-index: 1;
+        filter: drop-shadow(8px 8px 10px rgba(0,0,0,0.4));
+      }
+    }
+
+    &Top {
+      top: 0;
+
+
+      &:before {
+
+        top: 0;
+        z-index: 2;
+        filter: drop-shadow(8px 8px 10px transparent);
+      }
+
+      &:after {
+
+        top: 15px;
+        z-index: 1;
+        filter: drop-shadow(8px 8px 10px rgba(0,0,0,0.6));
+      }
+    }
+  }
+
 }

@@ -1,22 +1,22 @@
 @import '../../scssVars';
 
-$backgroundTopBar: #313552;
+$backgroundTopBar: $colorPurpleSecondary;
 $colorTopBarLink: $colorLightPrimary;
 $colorTopBarLinkHover: $colorBlueSecondary;
 $colorSuccessIcon: $colorBluePrimary;
 $backgroundTopBarDropDown: $colorLightPrimary;
-$backgroundBurgerLines            : $colorLightPrimary;
-$backgroundBurgerHover            : $colorBlueSecondary;
+$backgroundBurgerLines: $colorLightPrimary;
+$backgroundBurgerHover: $colorBlueSecondary;
 
 $topBarLinkSize: $size16px;
 
 .Header {
-  position: static;
+  position: sticky;
   top: 0;
-  right: 0;
-  left: 0;
   z-index: 2;
-  background: transparent;
+  width: 100%;
+  background: $backgroundTopBar;
+  border: 1px solid darken($colorPurpleSecondary, 10%);
 
   &__inner {
     display: flex;
@@ -24,9 +24,57 @@ $topBarLinkSize: $size16px;
     justify-content: space-between;
   }
 
+  $backgroundBurgerLines: $colorLightPrimary;
+  $backgroundBurgerHover: $colorBlueSecondary;
   &__burger {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    width: 38px;
+    height: 30px;
+    justify-content: center;
+    &:focus {
+      outline-color: rgba($colorBlueSecondary, 0.5);
+    }
+
     @media only screen and ($laptopsMin) {
       display: none;
+    }
+  }
+
+  &__icon {
+    cursor: pointer;
+    fill: $colorBluePrimary;
+
+    &_1,
+    &_2,
+    &_3 {
+      transform-origin: center center;
+      transition: .2s;
+    }
+  }
+
+  &_light {
+    background: $colorBluePrimary;
+
+    .btn-burger__icon {
+      fill: $colorLightPrimary;
+    }
+  }
+
+  &_active .btn-burger__icon {
+    &_1 {
+      transform: translate(-8px, 8px) rotate(45deg);
+    }
+    &_2 {
+      transform: translateX(20px);
+      opacity: 0;
+    }
+    &_3 {
+      transform: translate(-6px, -6px) rotate(-45deg);
     }
   }
 }

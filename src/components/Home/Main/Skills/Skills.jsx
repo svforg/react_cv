@@ -1,20 +1,29 @@
 import React from 'react';
 import {Item} from './Item/Item';
+import css from './Skills.module.scss';
 
 
 export const Skills = () => {
 
-    return <section className="page-section">
-        <div className="row d-block d-lg-flex  align-items-center">
-            <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <Item/>
-            </div>
-            <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <Item/>
-            </div>
-            <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <Item/>
-            </div>
+  return <section className={`page-section ${css.Skills}`}>
+    <div className="wrapper">
+      <div className="row d-block d-sm-flex align-items-center">
+        <div className="col-lg-3 col-sm-6 mb-3 mb-lg-0">
+          <Item/>
         </div>
-    </section>
+
+        <div className="col-lg-3 col-sm-6 mb-3 mb-lg-0 ">
+          <Item/>
+        </div>
+
+        <div className="col-lg-3 col-sm-6 mb-3 mb-lg-0 ">
+          <Item/>
+        </div>
+
+        <div className="col-lg-3 col-sm-6 mb-3 mb-lg-0 ">
+          <Item/>
+        </div>
+      </div>
+    </div>
+  </section>
 };

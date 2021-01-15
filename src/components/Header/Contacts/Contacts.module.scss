@@ -1,14 +1,9 @@
 @import '../../../scssVars';
 
-$backgroundTopBar: $colorBluePrimary;
-$colorTopBarLink: $colorLightPrimary;
-$colorTopBarLinkHover: $colorBlueSecondary;
-$colorSuccessIcon: $colorBluePrimary;
-$backgroundTopBarDropDown: $colorLightPrimary;
-$backgroundBurgerLines            : $colorLightPrimary;
-$backgroundBurgerHover            : $colorBlueSecondary;
+$colorLink: $colorLightPrimary;
+$colorLinkHover: $colorBlueSecondary;
 
-$topBarLinkSize: $size16px;
+$linkSize: $size16px;
 
 .Contacts {
   display: flex;
@@ -16,21 +11,30 @@ $topBarLinkSize: $size16px;
 
   @media only screen and ($laptopsMin) {
     flex-direction: column;
+    font-size: get-vw(20px);
   }
 
-  &__link {
-    color: $colorTopBarLink!important;
-    font-size: $topBarLinkSize;
-    white-space: nowrap;
 
-    &:hover {
-      color: $colorTopBarLinkHover!important;
-    }
+  &__link {
+    display: flex;
+    align-items: center;
+    font-size: $linkSize;
+    white-space: nowrap;
   }
 
   &__icon {
+    width: $size18px;
+    height: $size18px;
+    margin-right: 10px;
+
     @media only screen and ($largeTabletsMax) {
-      font-size: $size24px;
+      width: $size24px;
+      height: $size24px;
+    }
+
+    use {
+      fill: $colorBluePrimary;
+
     }
   }
 

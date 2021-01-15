@@ -2,46 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93d969b2-c4e2-4e3a-9642-0038f2f0d900" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Contacts/Contacts.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Logo/Logo.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Menu/Menu.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Menu/Menu.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Main/Banner/Banner.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Main/Banner/Banner.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Main/Form/Form.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Main/Form/Form.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Main/Hero/Hero.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Main/Hero/Hero.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Main/Main.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Main/Skills/Item/Item.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Main/Skills/Item/Item.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Main/Skills/Item/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Main/Skills/Skills.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Main/Skills/Skills.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Main/Works/Item/Item.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Main/Works/Item/Item.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Main/Works/Item/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Main/Works/Works.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Main/Works/Works.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shared/CustomButton/CustomButton.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shared/CustomButton/CustomButton.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shared/CustomInput/CustomInput.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shared/CustomInput/CustomInput.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shared/CustomTextArea/CustomTextArea.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shared/CustomTextArea/CustomTextArea.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shared/ScrollTop/ScrollTop.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shared/ScrollTop/ScrollTop.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scssVars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/isonsSprite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Contacts/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Contacts/Contacts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Contacts/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Contacts/Contacts.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Main/Banner/Banner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Main/Banner/Banner.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Main/Banner/Banner.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Main/Banner/Banner.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Main/Form/Form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Main/Form/Form.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Main/Form/Form.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Main/Form/Form.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Main/Hero/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Main/Hero/Hero.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Main/Hero/Hero.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Main/Hero/Hero.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Main/Main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Main/Skills/Item/Item.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Main/Skills/Item/Item.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Main/Skills/Skills.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Main/Skills/Skills.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Main/Skills/Skills.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Main/Skills/Skills.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Main/Works/Item/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Main/Works/Item/Item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Main/Works/Item/Item.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Main/Works/Item/Item.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Main/Works/Works.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Main/Works/Works.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Main/Works/Works.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Main/Works/Works.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shared/ScrollTop/ScrollTop.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/ScrollTop/ScrollTop.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scssVars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scssVars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/misc/_adjustment.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/misc/_adjustment.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/vars/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/vars/_colors.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1981577237">
@@ -112,38 +123,81 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-652377422">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="2" />
+          <entry key="jsx" value="37" />
+          <entry key="php" value="5" />
+          <entry key="scss" value="41" />
+          <entry key="svg" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSX Harmony" value="37" />
+          <entry key="JavaScript" value="2" />
+          <entry key="PHP" value="5" />
+          <entry key="SCSS" value="41" />
+          <entry key="SVG" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="5" />
+          <entry key="jsx" value="593" />
+          <entry key="scss" value="746" />
+          <entry key="svg" value="82" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSX Harmony" value="593" />
+          <entry key="JavaScript" value="5" />
+          <entry key="SCSS" value="746" />
+          <entry key="SVG" value="82" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/shared/CustomButton/CustomButton.module.scss">
+        <entry file="file://$PROJECT_DIR$/src/styles/misc/_adjustment.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
+            <state relative-caret-position="391">
+              <caret line="82" column="55" lean-forward="true" selection-start-line="82" selection-start-column="2" selection-end-line="82" selection-end-column="55" />
+              <folding>
+                <element signature="e#11#58#0" />
+                <element signature="e#79#137#0" />
+                <element signature="e#108#135#0" />
+                <element signature="e#216#245#0" />
+                <element signature="e#363#393#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Header/Header.module.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="40" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Form/Form.jsx">
+        <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Works/Item/Item.module.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
-              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/shared/CustomButton/CustomButton.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+              <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -162,26 +216,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/scssVars.scss" />
-        <option value="$PROJECT_DIR$/src/index.scss" />
-        <option value="$PROJECT_DIR$/src/pages/Header/Header.module.scss" />
-        <option value="$PROJECT_DIR$/src/pages/Header/Contacts/Contacts.module.scss" />
-        <option value="$PROJECT_DIR$/src/pages/Header/Logo/Logo.module.scss" />
-        <option value="$PROJECT_DIR$/src/pages/Header/Menu/Menu.module.scss" />
-        <option value="$PROJECT_DIR$/src/pages/Home/Main/Hero/Hero.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/Home/Main/Hero/Hero.module.scss" />
-        <option value="$PROJECT_DIR$/src/pages/Home/Main/skills/Hero.jsx" />
-        <option value="$PROJECT_DIR$/.eslintcache" />
-        <option value="$PROJECT_DIR$/src/pages/Home/Main/Skills/Skills.module.scss" />
-        <option value="$PROJECT_DIR$/src/pages/Home/Main/Skills/Item/Item.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/Home/Main/Skills/Item/Item.module.scss" />
-        <option value="$PROJECT_DIR$/src/pages/Home/Main/Works/Works.module.scss" />
-        <option value="$PROJECT_DIR$/src/pages/Home/Main/Skills/Skills.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/Home/Main/Works/Works.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/Home/Main/Works/Item/Item.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/Home/Main/Works/Item/Item.module.scss" />
-        <option value="$PROJECT_DIR$/src/components/shared/CustomButton/CustomButton.tsx" />
-        <option value="$PROJECT_DIR$/src/pages/Home/Main/Banner/Banner.jsx" />
         <option value="$PROJECT_DIR$/src/pages/Home/Main/Banner/Banner.module.scss" />
         <option value="$PROJECT_DIR$/src/components/shared/CustomInput/CustomInput.jsx" />
         <option value="$PROJECT_DIR$/src/components/shared/CustomTextArea/CustomTextArea.jsx" />
@@ -193,26 +227,46 @@
         <option value="$PROJECT_DIR$/src/pages/Footer/Footer.module.scss" />
         <option value="$PROJECT_DIR$/../../climashop/wp-content/themes/climat-theme/includes/load-css-js.php" />
         <option value="$PROJECT_DIR$/src/components/shared/ScrollTop/ScrollTop.jsx" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/styles/misc/_typo.scss" />
-        <option value="$PROJECT_DIR$/src/components/Header/Header.module.scss" />
-        <option value="$PROJECT_DIR$/src/components/Footer/Footer.module.scss" />
-        <option value="$PROJECT_DIR$/src/components/shared/ScrollTop/ScrollTop.module.scss" />
-        <option value="$PROJECT_DIR$/src/App.scss" />
-        <option value="$PROJECT_DIR$/src/styles/misc/_adjustment.scss" />
-        <option value="$PROJECT_DIR$/src/components/Home/Main/Form/Form.module.scss" />
         <option value="$PROJECT_DIR$/src/components/shared/CustomTextArea/CustomTextArea.module.scss" />
         <option value="$PROJECT_DIR$/src/components/shared/CustomInput/CustomInput.module.scss" />
-        <option value="$PROJECT_DIR$/src/styles/vars/_colors.scss" />
-        <option value="$PROJECT_DIR$/src/components/Home/Main/Banner/Banner.module.scss" />
         <option value="$PROJECT_DIR$/src/logo.svg" />
         <option value="$PROJECT_DIR$/src/components/Header/Logo/Logo.jsx" />
         <option value="$PROJECT_DIR$/src/components/Home/Main/Skills/Item/Item.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Home/Main/Works/Item/Item.module.scss" />
         <option value="$PROJECT_DIR$/src/components/shared/CustomButton/CustomButton.module.scss" />
         <option value="$PROJECT_DIR$/src/components/shared/CustomButton/CustomButton.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Home/Main/Skills/Skills.module.scss" />
+        <option value="$PROJECT_DIR$/src/components/Home/Main/Form/Form.module.scss" />
         <option value="$PROJECT_DIR$/src/components/Home/Main/Banner/Banner.jsx" />
         <option value="$PROJECT_DIR$/src/components/Home/Main/Form/Form.jsx" />
+        <option value="$PROJECT_DIR$/src/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/Home/Main/Works/Item/Item.jsx" />
+        <option value="$PROJECT_DIR$/src/scssVars.scss" />
+        <option value="$PROJECT_DIR$/src/styles/mixins/_convert_font_vw.scss" />
+        <option value="$PROJECT_DIR$/src/components/Header/Contacts/email.svg" />
+        <option value="$PROJECT_DIR$/src/components/Header/Contacts/phone-call.svg" />
+        <option value="$PROJECT_DIR$/src/components/Footer/isonsSprite.svg" />
+        <option value="$PROJECT_DIR$/src/components/Footer/Footer.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Header/Contacts/Contacts.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Header/Contacts/Contacts.module.scss" />
+        <option value="$PROJECT_DIR$/src/isonsSprite.svg" />
+        <option value="$PROJECT_DIR$/src/components/Header/Header.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Footer/Footer.module.scss" />
+        <option value="$PROJECT_DIR$/src/components/Home/Main/Hero/Hero.module.scss" />
+        <option value="$PROJECT_DIR$/src/components/Home/Main/Hero/Hero.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Home/Main/Skills/Item/Item.module.scss" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/Home/Main/Works/Works.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Home/Main/Skills/Skills.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Home/Main/Main.jsx" />
+        <option value="$PROJECT_DIR$/src/App.scss" />
+        <option value="$PROJECT_DIR$/src/styles/vars/_colors.scss" />
+        <option value="$PROJECT_DIR$/src/components/Home/Main/Banner/Banner.module.scss" />
+        <option value="$PROJECT_DIR$/src/components/shared/ScrollTop/ScrollTop.module.scss" />
+        <option value="$PROJECT_DIR$/src/components/Home/Main/Works/Works.module.scss" />
+        <option value="$PROJECT_DIR$/src/styles/misc/_adjustment.scss" />
+        <option value="$PROJECT_DIR$/src/components/Header/Header.module.scss" />
+        <option value="$PROJECT_DIR$/src/components/Home/Main/Works/Item/Item.module.scss" />
       </list>
     </option>
   </component>
@@ -240,6 +294,7 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -284,7 +339,7 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Home" type="462c0819:PsiDirectoryNode" />
               <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="Banner" type="462c0819:PsiDirectoryNode" />
+              <item name="Works" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react_cv" type="b2602c69:ProjectViewProjectNode" />
@@ -293,7 +348,8 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Home" type="462c0819:PsiDirectoryNode" />
               <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="Form" type="462c0819:PsiDirectoryNode" />
+              <item name="Works" type="462c0819:PsiDirectoryNode" />
+              <item name="Item" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -303,7 +359,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/Home/Main/Skills" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -320,15 +376,15 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2018.2.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\react_projects\react_cv\src\pages\Home\Main\Works\Item" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OSPanel\domains\react_projects\react_cv\src" />
+      <recent name="D:\OSPanel\domains\react_projects\react_cv\src\components\Header\Contacts" />
       <recent name="C:\OSPanel\domains\react_projects\react_cv\src\pages" />
       <recent name="C:\OSPanel\domains\react_projects\react_cv\src\components\shared" />
       <recent name="C:\OSPanel\domains\react_projects\react_cv\src\pages\Home\Main\Form" />
-      <recent name="C:\OSPanel\domains\react_projects\react_cv\src\pages\Home\Main\Banner" />
-      <recent name="C:\OSPanel\domains\react_projects\react_cv\src\pages\Home\Main\Works" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\OSPanel\domains\react_projects\react_cv\src\pages\Home\Main\Works\Item" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -358,17 +414,18 @@
       <workItem from="1610602899201" duration="11558000" />
       <workItem from="1610618210378" duration="10879000" />
       <workItem from="1610684057752" duration="2077000" />
+      <workItem from="1610724894875" duration="11718000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27894000" />
+    <option name="totallyTimeSpent" value="39612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1296" height="1010" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2657512" />
+      <window_info id="Database" order="0" side_tool="true" weight="0.32956383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -383,12 +440,12 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32908458" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3283237" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.26171243" />
     </layout>
     <layout-to-restore>
       <window_info id="npm" order="0" side_tool="true" />
@@ -420,213 +477,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Skills/Item/Item.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Works/Works.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Skills/Skills.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../laval-online/wp-content/themes/laval-theme/site_hub/app/pages/index/banner/_banner.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../laval-online/wp-content/themes/laval-theme/site_hub/app/pages/index/banner/banner.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../react_soc/src/components/Main/Dialogs/Messages/CreateMessage/CreateMessage.module.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../react_soc/src/components/Main/Dialogs/Messages/CreateMessage/CreateMessage.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="35" column="27" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="35" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../react_soc/src/index.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../react_soc/src/components/ui-elements/CustomButton/CustomButton.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../react_soc/src/styles/elements/_button.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../react_soc/src/components/ui-elements/CustomButton/CustomButton.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="5" lean-forward="true" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/vars/_breakpoints.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="28" lean-forward="true" selection-end-line="16" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../climashop/wp-content/themes/climat-theme/site_hub/src/pages/footer/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" selection-start-line="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../climashop/wp-content/themes/climat-theme/site_hub/src/pages/footer/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Main.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#239#443#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../climashop/wp-content/themes/climat-theme/site_hub/src/general/style/elements/_scroll-top.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" selection-start-line="17" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../climashop/wp-content/themes/climat-theme/includes/load-css-js.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2315">
-          <caret line="85" column="8" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../climashop/wp-content/themes/climat-theme/site_hub/src/pages/footer/footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="27" column="60" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../climashop/wp-content/themes/climat-theme/site_hub/src/general/js/misc/common-functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../climashop/wp-content/themes/climat-theme/site_hub/src/pages/footer/footer.js" />
+    <entry file="file://$PROJECT_DIR$/../../climashop/wp-content/themes/climat-theme/site_hub/src/general/js/misc/common-functions.js" />
     <entry file="file://$PROJECT_DIR$/src/components/shared/ScrollTop/ScrollTop.jsx">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Footer/Footer.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scssVars.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/shared/ScrollTop/ScrollTop.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/misc/_adjustment.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
-          <folding>
-            <element signature="e#11#58#0" />
-            <element signature="e#79#137#0" />
-            <element signature="e#108#135#0" />
-            <element signature="e#216#245#0" />
-            <element signature="e#363#393#0" />
-            <element signature="e#418#491#0" />
-            <element signature="e#462#489#0" />
-            <element signature="e#502#934#0" />
-            <element signature="e#665#727#0" />
-            <element signature="e#784#811#0" />
-            <element signature="e#868#932#0" />
-            <element signature="e#973#1003#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Footer/Footer.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/misc/_typo.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -634,9 +488,6 @@
           <caret line="25" column="27" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="27" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.scss">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/shared/CustomTextArea/CustomTextArea.jsx">
       <provider selected="true" editor-type-id="text-editor">
@@ -666,29 +517,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Form/Form.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/vars/_colors.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="9" column="19" selection-start-line="9" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/logo.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Banner/Banner.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Header/Logo/Logo.module.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -697,94 +527,319 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/Logo/Logo.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="37" />
-          <folding>
-            <element signature="e#123#641#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Skills/Skills.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Skills/Item/Item.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding>
-            <element signature="e#123#450#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Works/Works.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Works/Item/Laval.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Works/Item/Item.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/shared/CustomButton/CustomButton.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        <state relative-caret-position="184">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
-            <element signature="e#124#528#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Works/Item/Item.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/shared/CustomButton/CustomButton.module.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
+        <state relative-caret-position="569">
           <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/shared/CustomButton/CustomButton.jsx">
+    <entry file="file://$PROJECT_DIR$/../../spaceport_about/dev/app/pages/index/masonry/masonry.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="331">
+          <caret line="87" selection-start-line="87" selection-end-line="87" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Banner/Banner.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Form/Form.module.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        <state relative-caret-position="161">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#91#115#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Form/Form.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        <state relative-caret-position="193">
+          <caret line="9" selection-end-line="28" selection-end-column="2" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/domains/laval/app/pages/common-blocks/four-cards/four-cards.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-502">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Banner/Banner.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/vars/_breakpoints.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scssVars.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/mixins/_convert_font_vw.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/Logo/Logo.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/Contacts/email.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/Contacts/phone-call.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Footer/isonsSprite.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/isonsSprite.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../climat-one/wp-content/themes/climat-theme/site_hub/src/pages/header/top-bar/top-bar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="15" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/Contacts/Contacts.module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/Contacts/Contacts.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Footer/Footer.module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Footer/Footer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+          <folding>
+            <element signature="e#140#1653#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Hero/Hero.module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Hero/Hero.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="86" selection-start-line="9" selection-start-column="86" selection-end-line="9" selection-end-column="86" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Works/Item/Item.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+          <folding>
+            <element signature="e#199#997#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Works/Works.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#128#578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Skills/Skills.module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Skills/Skills.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Skills/Item/Item.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <folding>
+            <element signature="e#136#463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Skills/Item/Item.module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Main.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+          <folding>
+            <element signature="e#251#712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="10" column="9" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Banner/Banner.module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/vars/_colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="21" selection-start-line="11" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/shared/ScrollTop/ScrollTop.module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Works/Works.module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/misc/_adjustment.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="82" column="55" lean-forward="true" selection-start-line="82" selection-start-column="2" selection-end-line="82" selection-end-column="55" />
+          <folding>
+            <element signature="e#11#58#0" />
+            <element signature="e#79#137#0" />
+            <element signature="e#108#135#0" />
+            <element signature="e#216#245#0" />
+            <element signature="e#363#393#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Works/Item/Item.module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
         </state>
       </provider>
     </entry>

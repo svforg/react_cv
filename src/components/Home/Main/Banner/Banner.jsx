@@ -4,10 +4,13 @@ import {CustomButton} from '../../../../components/shared/CustomButton/CustomBut
 
 export const Banner = () => {
 
-    return <section className="page-section">
-        <article className={css.Banner}>
-            <h2>Рассматриваю варианты удаленной работы</h2>
-            <CustomButton inverse>Связаться со мной</CustomButton>
-        </article>
-    </section>
+  return <section className={`page-section ${css.Banner}`}>
+    <div className="wrapper">
+      <div className={css.Inner}>
+        <h2>Рассматриваю варианты удаленной работы</h2>
+        <CustomButton inverse>Связаться со мной</CustomButton>
+      </div>
+    </div>
+    <div className={`${css.Curve} ${css.CurveBottom}`}></div>
+  </section>
 };

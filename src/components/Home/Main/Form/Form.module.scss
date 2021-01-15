@@ -1,8 +1,10 @@
 @import './../../../../scssVars';
 
 .Form {
+  position: relative;
   width: 100%;
  text-align: left;
+
 
   &__formRow {
     display: flex;

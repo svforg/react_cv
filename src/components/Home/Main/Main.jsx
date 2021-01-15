@@ -6,13 +6,13 @@ import {Banner} from './Banner/Banner';
 import {Form} from './Form/Form';
 
 export const Main = () => {
-    return <main className="main">
-        <div className="wrapper">
-            <Hero/>
-            <Skills/>
-            <Works/>
-            <Banner/>
-            <Form/>
-        </div>
-    </main>
+  return <main className="main">
+    <article>
+      <Hero/>
+      <Skills/>
+      <Works/>
+      <Banner/>
+      <Form/>
+    </article>
+  </main>
 };
