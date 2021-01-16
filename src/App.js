@@ -3,6 +3,7 @@ import {Header} from './components/Header/Header'
 import {Main} from './components/Home/Main/Main'
 import {Footer} from './components/Footer/Footer'
 import {ScrollTop} from './components/shared/ScrollTop/ScrollTop'
+import {CanvasBG} from './components/shared/CanvasBG/CanvasBG'
 
 const App = () => {
 
@@ -12,6 +13,7 @@ const App = () => {
       <Main/>
       <Footer/>
       <ScrollTop/>
+
     </div>
   );
 };

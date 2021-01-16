@@ -32,6 +32,10 @@ $topBarLinkSize: $size16px;
     @media only screen and ($phonesMax) {
       max-width: 24px;
     }
+
+    @media (prefers-reduced-motion: no-preference) {
+      animation: App-logo-spin 3 10s linear;
+    }
   }
 
   &__text {
@@ -70,6 +74,15 @@ $topBarLinkSize: $size16px;
         display: none;
       }
     }
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
 

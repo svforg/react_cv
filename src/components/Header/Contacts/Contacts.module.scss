@@ -14,18 +14,10 @@ $linkSize: $size16px;
     font-size: get-vw(20px);
   }
 
-
-  &__link {
-    display: flex;
-    align-items: center;
-    font-size: $linkSize;
-    white-space: nowrap;
-  }
-
   &__icon {
     width: $size18px;
     height: $size18px;
-    margin-right: 10px;
+    margin: 2px 6px 0 0;
 
     @media only screen and ($largeTabletsMax) {
       width: $size24px;
@@ -34,7 +26,7 @@ $linkSize: $size16px;
 
     use {
       fill: $colorBluePrimary;
-
+      transition: fill $transitionDurationPrimary $transitionFunctionPrimary;
     }
   }
 
@@ -43,6 +35,25 @@ $linkSize: $size16px;
 
     @media only screen and ($laptopsMin) {
       display: inline-block;
+    }
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 4px;
+    font-size: $linkSize;
+    white-space: nowrap;
+
+    &:hover {
+      .Contacts__icon use {
+        fill: $colorBlueSecondary;
+      }
+    }
+
+    &:last-child {
+      margin-bottom: 0;
     }
   }
 }

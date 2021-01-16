@@ -21,20 +21,12 @@ html.scroll-disable {
 }
 
 main {
+  position: relative;
   overflow: hidden;
   background: transparent;
-  margin-bottom: $step16;
 
   @media screen and ($phonesMax) {
     margin-bottom: 30px;
-  }
-}
-
-.page-section {
-  margin-bottom: $step16;
-
-  &:last-child {
-    margin-bottom: 0;
   }
 }
 

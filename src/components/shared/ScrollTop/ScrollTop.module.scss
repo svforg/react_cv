@@ -1,6 +1,6 @@
 @import '../../../scssVars';
 
-.ScrollTop {
+.scrollTop {
   position: fixed;
   right: 20px;
   bottom: 20px;
@@ -13,24 +13,21 @@
     bottom: 50px;
   }
 
-
-  &__btn {
+  .btn {
     min-height: 30px;
     width: 40px;
     height: 40px;
     padding: 0;
     border-radius: 50%;
     box-shadow: none!important;
-    color: rgba($colorYellowPrimary, 0.5);
-    border: 1px solid rgba($colorYellowPrimary, 0.5);
+    color: $colorYellowPrimary;
+    border: 1px solid $colorYellowPrimary;
     background: transparent;
-    transition: color  $transitionDurationPrimary $transitionFunctionPrimary,
-    border-color  $transitionDurationPrimary $transitionFunctionPrimary;
+    transition: background  $transitionDurationPrimary $transitionFunctionPrimary;
     cursor: pointer;
 
     &:hover {
-      color: rgba($colorYellowPrimary, 1);
-      border-color: rgba($colorYellowPrimary, 1);
+      background: rgba($colorLightSecondary, 0.2);
     }
   }
 }

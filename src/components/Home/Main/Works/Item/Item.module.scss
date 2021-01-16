@@ -6,12 +6,12 @@
 
   &__front,
   &__back {
+    background: $colorPurpleSecondary;
     overflow: hidden;
     backface-visibility: hidden;
     min-height: 480px;
     border-radius: 15px;
     transform-style: preserve-3d;
-    box-shadow: 0 1px 0 0 #d3d9de, 0 0 0 1px #e7e8ec;
     transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
   }
 
@@ -19,7 +19,6 @@
   $transZ: 100px;
 
   &__front {
-    background: #e7e8ec;
     transform: rotateY(0deg) translateZ($transZ) scale($scale);
   }
 
@@ -28,7 +27,6 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: $colorPurpleSecondary;
     transform: rotateY(180deg) translateZ($transZ) scale($scale);
     font-size: 1.5rem;
     padding: 2rem;

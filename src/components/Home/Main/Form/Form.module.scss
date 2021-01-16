@@ -3,6 +3,9 @@
 .Form {
   position: relative;
   width: 100%;
+  background: $colorDarkPrimary;
+  padding: $step12 0;
+
   text-align: left;
 
   &__formRow {

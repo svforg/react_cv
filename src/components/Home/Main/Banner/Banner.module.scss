@@ -2,19 +2,17 @@
 
 .Banner {
   position: relative;
-  background: $colorLightPrimary;
-  padding-bottom: 150px;
-  .Inner {
+  background: transparent;
+  padding-bottom: $step2;
+
+  &:before {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    margin-bottom: $step12;
-    padding: 48px 0;
-    overflow: hidden;
-    color: $colorLightPrimary;
-    background: $colorPurpleSecondary;
-    border-radius: 15px;
-    @media ($largeTabletsMax) {
-      margin-bottom: $step3;
-    }
+    height: 100%;
+    background-color: rgba($colorDarkPrimary, 0.6);
+    content: '';
   }
 
   &:after {
@@ -30,10 +28,23 @@
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     box-shadow: 0 60px 0 0 #202020;
-    filter: drop-shadow(0 -6px 1px #d3d9de);
     content: '';
     @media ($phonesMax) {
       height: 100px;
+    }
+  }
+
+  .Inner {
+    position: relative;
+    width: 100%;
+    margin-bottom: $step12;
+    padding: 48px 0;
+    overflow: hidden;
+    color: $colorLightPrimary;
+    background: $colorPurpleSecondary;
+    border-radius: 15px;
+    @media ($largeTabletsMax) {
+      margin-bottom: $step3;
     }
   }
 }

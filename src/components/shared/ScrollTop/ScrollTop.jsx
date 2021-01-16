@@ -36,8 +36,8 @@ export function ScrollTop() {
         }
     }
 
-    return <div className={css.ScrollTop} style={{opacity: `${value}`}}>
-        <button className={css.ScrollTop__btn} onClick={scrollToTopTrigger}>
+    return <div className={css.scrollTop} style={{opacity: `${value}`}}>
+        <button className={css.btn} onClick={scrollToTopTrigger}>
             &uarr;
         </button>
     </div>

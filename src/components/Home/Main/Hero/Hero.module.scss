@@ -1,7 +1,8 @@
 @import './../../../../scssVars';
 
 .Hero {
-  padding: $step6 0;
+  background: $colorDarkPrimary;
+  padding: $step12 0;
 
   &__picture {
     display: flex;
