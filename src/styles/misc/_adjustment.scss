@@ -21,8 +21,6 @@ html.scroll-disable {
 }
 
 main {
-  min-width: 100vw;
-  min-height: 100vh;
   position: relative;
   overflow: hidden;
   background: transparent;
@@ -74,7 +72,7 @@ ul, menu, ol, section, figure, aside {
   background-position: 0;
   background-origin: padding-box;
   border-radius: 8px;
-  border: 1px solid rgba($colorYellowPrimary,0.4);
+  border: 1px solid darken($colorYellowPrimary, 15%);
   transition: background-position .3s ease-in-out;
 }
 

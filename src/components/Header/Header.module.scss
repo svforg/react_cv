@@ -17,7 +17,7 @@ $topBarLinkSize: $size16px;
   z-index: 2;
   width: 100%;
   background: $backgroundTopBar;
-  border-bottom: 1px solid $colorYellowPrimary;
+  border-bottom: 1px solid darken($colorYellowPrimary, 15%);
 
   &__inner {
     display: flex;
