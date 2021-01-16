@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="93d969b2-c4e2-4e3a-9642-0038f2f0d900" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/misc/_adjustment.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/misc/_adjustment.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Main/Main.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Main/Main.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Main/Works/Works.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Main/Works/Works.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shared/CanvasBG/CanvasBG.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/CanvasBG/CanvasBG.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/vars/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/vars/_colors.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,9 +111,9 @@
           <entry key="jpeg" value="1" />
           <entry key="js" value="6" />
           <entry key="json" value="1" />
-          <entry key="jsx" value="61" />
+          <entry key="jsx" value="62" />
           <entry key="php" value="6" />
-          <entry key="scss" value="107" />
+          <entry key="scss" value="109" />
           <entry key="svg" value="10" />
         </counts>
       </usages-collector>
@@ -118,11 +121,11 @@
         <counts>
           <entry key="Image" value="1" />
           <entry key="JSON" value="1" />
-          <entry key="JSX Harmony" value="61" />
+          <entry key="JSX Harmony" value="62" />
           <entry key="JavaScript" value="6" />
           <entry key="PHP" value="6" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="SCSS" value="107" />
+          <entry key="SCSS" value="109" />
           <entry key="SVG" value="10" />
         </counts>
       </usages-collector>
@@ -130,17 +133,17 @@
         <counts>
           <entry key="js" value="50" />
           <entry key="json" value="1" />
-          <entry key="jsx" value="1183" />
-          <entry key="scss" value="1801" />
+          <entry key="jsx" value="1254" />
+          <entry key="scss" value="1871" />
           <entry key="svg" value="86" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="JSX Harmony" value="1183" />
+          <entry key="JSX Harmony" value="1254" />
           <entry key="JavaScript" value="50" />
-          <entry key="SCSS" value="1801" />
+          <entry key="SCSS" value="1871" />
           <entry key="SVG" value="86" />
         </counts>
       </usages-collector>
@@ -148,16 +151,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/shared/CanvasBG/CanvasBG.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1021">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="276">
+              <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
               <folding>
                 <element signature="n#!!block;n#Pixel#0;n#!!block;n#CanvasBG#0" expanded="true" />
-                <element signature="e#228#1227#0" expanded="true" />
                 <element signature="e#494#530#0" expanded="true" />
-                <element signature="e#578#715#0" expanded="true" />
                 <element signature="e#900#1064#0" expanded="true" />
                 <element signature="e#946#1008#0" expanded="true" />
               </folding>
@@ -174,16 +175,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/misc/_adjustment.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="170">
+              <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
               <folding>
                 <element signature="e#11#58#0" />
                 <element signature="e#79#137#0" />
                 <element signature="e#108#135#0" />
                 <element signature="e#216#245#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Works/Works.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#128#507#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scssVars.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Works/Works.module.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+              <folding>
+                <element signature="e#133#546#0" />
               </folding>
             </state>
           </provider>
@@ -202,7 +237,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Main.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
-              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
               <folding>
                 <element signature="e#334#486#0" expanded="true" />
               </folding>
@@ -213,8 +248,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Main.module.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="253">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -222,8 +257,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/vars/_colors.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="23">
+              <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -268,7 +303,6 @@
         <option value="$PROJECT_DIR$/src/components/Home/Main/Skills/Item/Item.module.scss" />
         <option value="$PROJECT_DIR$/src/components/Home/Main/Skills/Skills.jsx" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/components/Home/Main/Works/Works.jsx" />
         <option value="$PROJECT_DIR$/src/components/Home/Main/Banner/Banner.jsx" />
         <option value="$PROJECT_DIR$/src/styles/misc/_typo.scss" />
         <option value="$PROJECT_DIR$/src/components/Header/Logo/Logo.module.scss" />
@@ -286,14 +320,15 @@
         <option value="$PROJECT_DIR$/src/components/Home/Main/Form/Form.jsx" />
         <option value="$PROJECT_DIR$/src/components/Home/Main/Skills/Skills.module.scss" />
         <option value="$PROJECT_DIR$/src/components/Home/Main/Banner/Banner.module.scss" />
-        <option value="$PROJECT_DIR$/src/components/Home/Main/Works/Works.module.scss" />
-        <option value="$PROJECT_DIR$/src/styles/vars/_colors.scss" />
-        <option value="$PROJECT_DIR$/src/components/Home/Main/Main.module.scss" />
         <option value="$PROJECT_DIR$/src/components/Home/Main/Main.jsx" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/shared/CanvasBG/CanvasBG.jsx" />
         <option value="$PROJECT_DIR$/src/components/Header/Header.module.scss" />
         <option value="$PROJECT_DIR$/src/styles/misc/_adjustment.scss" />
+        <option value="$PROJECT_DIR$/src/components/Home/Main/Works/Works.module.scss" />
+        <option value="$PROJECT_DIR$/src/components/Home/Main/Works/Works.jsx" />
+        <option value="$PROJECT_DIR$/src/styles/vars/_colors.scss" />
+        <option value="$PROJECT_DIR$/src/components/Home/Main/Main.module.scss" />
+        <option value="$PROJECT_DIR$/src/components/shared/CanvasBG/CanvasBG.jsx" />
       </list>
     </option>
   </component>
@@ -349,46 +384,6 @@
               <item name="react_cv" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Header" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_cv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_cv" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_cv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_cv" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_cv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_cv" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="Banner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_cv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_cv" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="Works" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_cv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_cv" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="shared" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -398,26 +393,6 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="shared" type="462c0819:PsiDirectoryNode" />
               <item name="CanvasBG" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_cv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_cv" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_cv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_cv" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="misc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_cv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_cv" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="vars" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -485,12 +460,12 @@
       <workItem from="1610602899201" duration="11558000" />
       <workItem from="1610618210378" duration="10879000" />
       <workItem from="1610684057752" duration="2077000" />
-      <workItem from="1610724894875" duration="30182000" />
+      <workItem from="1610724894875" duration="32203000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58076000" />
+    <option name="totallyTimeSpent" value="60097000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1296" height="1010" extended-state="6" />
@@ -628,16 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Works/Works.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -840,31 +805,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scssVars.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Works/Works.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Banner/Banner.module.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/vars/_colors.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -885,21 +829,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/shared/CanvasBG/CanvasBG.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1021">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="n#!!block;n#Pixel#0;n#!!block;n#CanvasBG#0" expanded="true" />
-            <element signature="e#228#1227#0" expanded="true" />
-            <element signature="e#494#530#0" expanded="true" />
-            <element signature="e#578#715#0" expanded="true" />
-            <element signature="e#900#1064#0" expanded="true" />
-            <element signature="e#946#1008#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Header/Header.module.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -910,29 +839,77 @@
     <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Main.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
           <folding>
             <element signature="e#334#486#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Main.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/misc/_adjustment.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="170">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
           <folding>
             <element signature="e#11#58#0" />
             <element signature="e#79#137#0" />
             <element signature="e#108#135#0" />
             <element signature="e#216#245#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Works/Works.module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding>
+            <element signature="e#133#546#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Works/Works.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#128#507#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scssVars.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/vars/_colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/Main/Main.module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/shared/CanvasBG/CanvasBG.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+          <folding>
+            <element signature="n#!!block;n#Pixel#0;n#!!block;n#CanvasBG#0" expanded="true" />
+            <element signature="e#494#530#0" expanded="true" />
+            <element signature="e#900#1064#0" expanded="true" />
+            <element signature="e#946#1008#0" expanded="true" />
           </folding>
         </state>
       </provider>

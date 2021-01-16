@@ -21,7 +21,7 @@ export function CanvasBG(props) {
 
     Pixel.prototype.render = function (ctx) {
       let hue = Math.round(this.hue);
-      ctx.fillStyle = 'hsl(' + hue + ', 100%, 50% )';
+      ctx.fillStyle = 'hsl(' + hue + ', 100%, 30% )';
       ctx.fillRect(this.x, this.y, 1, 1);
     };
 
