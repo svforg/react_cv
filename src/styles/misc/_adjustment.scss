@@ -67,12 +67,12 @@ ul, menu, ol, section, figure, aside {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: $colorPurpleSecondary;
+  background: $colorDarkPrimary;
   background-size: 100% 200%;
   background-position: 0;
   background-origin: padding-box;
   border-radius: 8px;
-  border: 1px solid darken($colorPurpleSecondary, 10%);
+  border: 1px solid rgba($colorYellowPrimary,0.4);
   transition: background-position .3s ease-in-out;
 }
 

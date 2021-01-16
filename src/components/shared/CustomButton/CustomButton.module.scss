@@ -26,10 +26,11 @@ $backgroundButtonFilledHover      : $colorBlueSecondary;
   border-radius: $borderRadiusPrimary;
   cursor: pointer;
   transition: background $transitionDurationPrimary $transitionFunctionSecondary,
-  color $transitionDurationPrimary $transitionFunctionSecondary,
   border-color, $transitionDurationPrimary $transitionFunctionSecondary;
 
   &:hover {
+    color: $colorDarkPrimary!important;
+    //background: rgba($colorLightSecondary, 0.1);
     background: $colorBluePrimary;
     border-color: $colorBluePrimary;
   }
@@ -39,12 +40,15 @@ $backgroundButtonFilledHover      : $colorBlueSecondary;
   }
 
   &_inverse {
-    color: $colorBluePrimary!important;
+    color: $colorDarkPrimary!important;
     background: $colorLightPrimary;
-    border-color: $colorBluePrimary;
+    border-color: $colorLightPrimary;
 
     &:hover {
-      background: darken($colorLightPrimary, 20%);
+      //background: darken($colorLightPrimary, 20%);
+      background: $colorBluePrimary;
+      //border-color: darken($colorLightPrimary, 20%);
+      border-color: $colorBluePrimary;
     }
   }
 }

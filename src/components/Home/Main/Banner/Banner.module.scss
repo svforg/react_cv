@@ -4,6 +4,7 @@
   position: relative;
   background: transparent;
   padding-bottom: $step2;
+  z-index: 0;
 
   &:before {
     position: absolute;
@@ -11,7 +12,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba($colorDarkPrimary, 0.6);
+    background-color: rgba($colorDarkPrimary, 0.75);
     content: '';
   }
 
@@ -19,7 +20,7 @@
     position: absolute;
     bottom: 0;
     left: -5vw;
-    z-index: 1;
+    z-index: -1;
     width: 110vw;
     height: 200px;
     margin: 0;
@@ -27,7 +28,8 @@
     border: none;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
-    box-shadow: 0 60px 0 0 #202020;
+    box-shadow: 0 60px 0 0 $colorDarkPrimary;
+    filter: drop-shadow(0 -4px 2px rgba($colorDarkPrimary, 0.4));
     content: '';
     @media ($phonesMax) {
       height: 100px;
@@ -40,9 +42,14 @@
     margin-bottom: $step12;
     padding: 48px 0;
     overflow: hidden;
+    border: 1px solid $colorYellowPrimary;
     color: $colorLightPrimary;
     background: $colorPurpleSecondary;
+    background: $colorDarkPrimary;
     border-radius: 15px;
+    box-shadow: 0 1px 4px 1px rgba($colorPurpleSecondary,0.75),
+    0 0 20px 4px rgba($colorDarkPrimary,0.2);
+
     @media ($largeTabletsMax) {
       margin-bottom: $step3;
     }

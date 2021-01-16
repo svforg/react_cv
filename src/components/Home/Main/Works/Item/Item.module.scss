@@ -7,11 +7,15 @@
   &__front,
   &__back {
     background: $colorPurpleSecondary;
+    background: $colorDarkPrimary;
     overflow: hidden;
     backface-visibility: hidden;
     min-height: 480px;
+    border: 1px solid $colorYellowPrimary;
     border-radius: 15px;
     transform-style: preserve-3d;
+    box-shadow: 0 0 4px 1px rgba($colorDarkPrimary,0.5),
+    0 0 6px 3px rgba($colorDarkPrimary,0.1);
     transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
   }
 

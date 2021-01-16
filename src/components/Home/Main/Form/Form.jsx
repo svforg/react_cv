@@ -22,7 +22,7 @@ export const Form = () => {
           </div>
         </div>
 
-        <CustomButton>Send</CustomButton>
+        <CustomButton>Отправить</CustomButton>
       </form>
     </div>
   </section>

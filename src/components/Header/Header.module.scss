@@ -1,6 +1,7 @@
 @import '../../scssVars';
 
 $backgroundTopBar: $colorPurpleSecondary;
+$backgroundTopBar: $colorDarkPrimary;
 $colorTopBarLink: $colorLightPrimary;
 $colorTopBarLinkHover: $colorBlueSecondary;
 $colorSuccessIcon: $colorBluePrimary;
@@ -16,7 +17,7 @@ $topBarLinkSize: $size16px;
   z-index: 2;
   width: 100%;
   background: $backgroundTopBar;
-  border: 1px solid darken($colorPurpleSecondary, 10%);
+  border-bottom: 1px solid $colorYellowPrimary;
 
   &__inner {
     display: flex;
