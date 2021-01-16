@@ -5,16 +5,6 @@
   padding: $step16 0 30px 0;
   background: transparent;
 
-  &:before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba($colorDarkPrimary, 0.75);
-    content: '';
-  }
-
   &:after {
     position: absolute;
     top: 0;

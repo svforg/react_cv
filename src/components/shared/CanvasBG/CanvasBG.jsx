@@ -1,48 +1,49 @@
 import React, {useRef, useEffect} from 'react';
 
-
 export function CanvasBG(props) {
+
   const canvasRef = useRef(null);
 
-  const startAnimation = () => {
-
-    window.requestAnimationFrame(startAnimation);
-  };
-
+  function Pixel(x, y) {
+    this.x = x;
+    this.y = y;
+    this.hue = Math.floor(Math.random() * 360);
+    let direction = Math.random() > 0.5 ? -1 : 1;
+    this.velocity = (Math.random() * 30 + 20) * 0.01 * direction;
+  }
 
   useEffect(() => {
     const canvas = canvasRef.current;
     const context = canvas.getContext('2d');
-
-    let time = 0;
-
-    const color = (x, y, r, g, b) => {
-      context.fillStyle = `rgb(${r}, ${g}, ${b})`;
-      context.fillRect(x, y, 280, 280);
+    Pixel.prototype.update = function () {
+      this.hue += this.velocity;
     };
 
-    const R = (x, y, time) => Math.floor(192 + 64 * Math.cos((x * x - y * y) / 300 + time));
+    Pixel.prototype.render = function (ctx) {
+      let hue = Math.round(this.hue);
+      ctx.fillStyle = 'hsl(' + hue + ', 100%, 50% )';
+      ctx.fillRect(this.x, this.y, 1, 1);
+    };
 
-    const G = (x, y, time) => Math.floor(192 + 64 * Math.sin((x * x * Math.cos(time / 4) + y * y * Math.sin(time / 3)) / 300));
-
-    const B = (x, y, time) => Math.floor(192 + 64 * Math.sin(5 * Math.sin(time / 9) + ((x - 100) * (x - 100) + (y - 100) * (y - 100)) / 1100));
+    let pixels = [
+      new Pixel(0, 0),
+      new Pixel(1, 0),
+      new Pixel(0, 1),
+      new Pixel(1, 1),
+    ];
 
     const startAnimation = () => {
-      for (let x = 0; x <= 30; x++) {
-        for (let y = 0; y <= 30; y++) {
-          color(x, y, R(x, y, time), G(x, y, time), B(x, y, time));
-        }
-      }
-      time = time + 0.03;
+      pixels.forEach(function (pixel) {
+        pixel.update();
+        pixel.render(context);
+      });
       window.requestAnimationFrame(startAnimation);
     };
 
     startAnimation();
 
-    return () => {
-      window.cancelAnimationFrame(startAnimation)
-    }
-    }, []);
+    return () => window.cancelAnimationFrame(startAnimation);
+  }, []);
 
-  return <canvas ref={canvasRef} {...props}/>
+  return <canvas width="2" height="2" ref={canvasRef} {...props}/>
 }

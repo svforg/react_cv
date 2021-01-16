@@ -21,6 +21,8 @@ html.scroll-disable {
 }
 
 main {
+  min-width: 100vw;
+  min-height: 100vh;
   position: relative;
   overflow: hidden;
   background: transparent;
