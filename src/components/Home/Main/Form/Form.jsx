@@ -9,7 +9,7 @@ export const Form = () => {
     <div className="wrapper">
       <h2>Рассматриваю варианты удаленной работы</h2>
 
-      <form className={css.Form__inner}>
+      <form>
         <div className="row mb-4">
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
             <CustomInput labelTitle="Почта"/>

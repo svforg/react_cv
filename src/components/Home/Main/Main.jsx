@@ -7,12 +7,10 @@ import {Form} from './Form/Form';
 
 export const Main = () => {
   return <main className="main">
-    <article>
-      <Hero/>
-      <Skills/>
-      <Works/>
-      <Banner/>
-      <Form/>
-    </article>
+    <Hero/>
+    <Skills/>
+    <Works/>
+    <Banner/>
+    <Form/>
   </main>
 };

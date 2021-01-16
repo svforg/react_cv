@@ -11,6 +11,5 @@ export const Banner = () => {
         <CustomButton inverse>Связаться со мной</CustomButton>
       </div>
     </div>
-    <div className={`${css.Curve} ${css.CurveBottom}`}></div>
   </section>
 };

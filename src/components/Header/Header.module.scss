@@ -34,7 +34,6 @@ $topBarLinkSize: $size16px;
     border: none;
     cursor: pointer;
     width: 38px;
-    height: 30px;
     justify-content: center;
     &:focus {
       outline-color: rgba($colorBlueSecondary, 0.5);
@@ -48,7 +47,7 @@ $topBarLinkSize: $size16px;
   &__icon {
     cursor: pointer;
     fill: $colorBluePrimary;
-
+    height: 30px;
     &_1,
     &_2,
     &_3 {
